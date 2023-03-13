@@ -23,13 +23,17 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <!-- logo -->
         <nav class="main-nav">
           <a href="./index.html" class="logo link"
             >Web<span class="black-logo">Studio</span></a
           >
 
-          <!-- nav -->
+          <button class="menu-hamburger" type="button">
+            <svg class="icon-menu-hamburger">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+          </button>
+
           <ul class="site-nav">
             <li class="site-nav-item current">
               <a href="./index.html" class="nav-link link current-link"
@@ -45,7 +49,6 @@
           </ul>
         </nav>
 
-        <!-- addres -->
         <address>
           <ul class="address">
             <li>
@@ -61,6 +64,8 @@
           </ul>
         </address>
       </div>
+
+      <div class="mobile-menu"></div>
     </header>
 
     <main>
@@ -85,8 +90,8 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Strategy</h3>
-              <p class="section-text">
+              <h3 class="section-sub-title skills-item-titel">Strategy</h3>
+              <p class="section-text skill-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -97,8 +102,8 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Punctuality</h3>
-              <p class="section-text">
+              <h3 class="section-sub-title skills-item-titel">Punctuality</h3>
+              <p class="section-text skill-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -109,8 +114,8 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Diligence</h3>
-              <p class="section-text">
+              <h3 class="section-sub-title skills-item-titel">Diligence</h3>
+              <p class="section-text skill-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -121,8 +126,8 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="section-sub-title">Technologies</h3>
-              <p class="section-text">
+              <h3 class="section-sub-title skills-item-titel">Technologies</h3>
+              <p class="section-text skill-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -401,7 +406,7 @@
     <footer class="footer">
       <div class="container footer-content">
         <div class="footer-info">
-          <a href="./index.html" class="logo link"
+          <a href="./index.html" class="logo link ftr-logo"
             >Web<span class="wight-logo">Studio</span></a
           >
           <p class="footer-text">
