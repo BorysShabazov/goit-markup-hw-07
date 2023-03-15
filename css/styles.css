@@ -472,7 +472,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img.jpg);
+    url(../images/hero-bg-1x.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -481,6 +481,19 @@ img {
   padding: 112px 0;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to top,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-2x@2x.jpg);
+  }
 }
 
 @media screen and (min-width: 768px) {
