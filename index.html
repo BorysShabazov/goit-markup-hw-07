@@ -214,23 +214,60 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="work-list">
             <li class="work-item">
-              <img
-                src="./images/we-make/computer.jpg"
-                alt="website"
-                height="300"
-                width="360"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/we-make/computer.webp    1x,
+                    ./images/we-make/computer@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/we-make/computer.jpg    1x,
+                    ./images/we-make/computer@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/we-make/computer.jpg"
+                  alt="website"
+                  height="300"
+                  width="360"
+                  loading="lazy"
+                />
+              </picture>
             </li>
+
+            <li class="work-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/we-make/phone.webp    1x,
+                    ./images/we-make/phone@2x.webp 2x
+                  "
+                  type="image/webp" />
+                <source
+                  srcset="
+                    ./images/we-make/phone.jpg    1x,
+                    ./images/we-make/phone@2x.jpg 2x
+                  "
+                  type="image/jpg" />
+                <img
+                  src="./images/we-make/phone.jpg"
+                  alt="app"
+                  height="300"
+                  width="360"
+                  loading="lazy"
+              /></picture>
+            </li>
+
             <li class="work-item">
               <img
-                src="./images/we-make/phone.jpg"
-                alt="app"
-                height="300"
-                width="360"
-              />
-            </li>
-            <li class="work-item">
-              <img
+                srcset="
+                  ./images/we-make/phone-and-computer.jpg    1x,
+                  ./images/we-make/phone-and-computer@2x.jpg 2x
+                "
                 src="./images/we-make/phone-and-computer.jpg"
                 alt="desing"
                 height="300"
@@ -248,6 +285,10 @@
           <ul class="team-list">
             <li class="teammate">
               <img
+                srcset="
+                  ./images/team/mark-guerrero.jpg    1x,
+                  ./images/team/mark-guerrero@2x.jpg 2x
+                "
                 src="./images/team/mark-guerrero.jpg"
                 alt="photo Mark Guerrero"
                 width="264"
@@ -291,6 +332,10 @@
 
             <li class="teammate">
               <img
+                srcset="
+                  ./images/team/tom-ford.jpg    1x,
+                  ./images/team/tom-ford@2x.jpg 2x
+                "
                 src="./images/team/tom-ford.jpg"
                 alt="photo Tom Ford"
                 width="264"
@@ -334,6 +379,10 @@
 
             <li class="teammate">
               <img
+                srcset="
+                  ./images/team/camila-garcia.jpg    1x,
+                  ./images/team/camila-garcia@2x.jpg 2x
+                "
                 src="./images/team/camila-garcia.jpg"
                 alt="photo Camila Garcia"
                 width="264"
@@ -377,6 +426,10 @@
 
             <li class="teammate">
               <img
+                srcset="
+                  ./images/team/daniel-wilson.jpg    1x,
+                  ./images/team/daniel-wilson@2x.jpg 2x
+                "
                 src="./images/team/daniel-wilson.jpg"
                 alt="photo Daniel Wilson"
                 width="264"
